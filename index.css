@@ -1,0 +1,20 @@
+body{
+  padding : 0px;
+  margin : 0px;
+}
+
+a{
+  text-decoration : none;
+}
+
+a:hover{
+  text-decoration : underline;
+}
+
+input:focus{
+  outline : none;
+}
+
+input[type="image"]:hover, button:hover{
+  transform: scale(1.1);
+}
