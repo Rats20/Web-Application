@@ -1,5 +1,6 @@
 import React from 'react';
-import NavBooks from './NavBooks';
+import SearchBar from './Searchbar'
+import NavContainer from './NavBooks';
 import Book from './Book';
 import LeftArrow from './img/LeftArrow.jpeg';
 import RightArrow from './img/RightArrow.jpeg';
@@ -19,8 +20,9 @@ class CSEBooks extends React.Component{
 
         return(
             <div style={centerStyle}>
-                <div style={{float : "left", marginTop : 120}}>
-                        <NavBooks/>
+                <div style={{float : "left", marginTop : 120, width:1100}}>
+                        <SearchBar/>
+                        <NavContainer/>
                 </div>
 
                 <div>
