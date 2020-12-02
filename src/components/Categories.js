@@ -24,7 +24,7 @@ class Categories extends React.Component{
         };
 
         return(
-            <button style = {boxStyle}>
+            <button style = {boxStyle} onMouseDown={this.props.handleClick}>
                 <h1 style = {letterStyle}>{this.props.name}</h1>
             </button>
         );
