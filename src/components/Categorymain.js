@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, NavLink} from 'react-router-dom'
 import SearchBar from './Searchbar';
 import Categories from './Categories';
+import LendForm from './LendForm';
 import LendQuote from './img/LendQuote.jpg';
 
 class Heading extends React.Component{
@@ -55,7 +56,7 @@ class Lend extends React.Component{
                 <img src={LendQuote} alt="Oops!Couldn't load the image" height="530" width="800" style={{margin : 0, float : "left"}}/>
                     <div style={centerStyle}>
                         <p style={letterStyle}>Get in here to share your happiness, I mean BOOKS!</p>
-                        <Categories name="Lend!" Width="300px" Height="100px"/>
+                        <Categories name="Lend!" Width="300px" Height="100px" handleClick={this.props.handleClick}/>
                     </div>
             </div>
         );
@@ -63,6 +64,32 @@ class Lend extends React.Component{
 }
 
 class CategoryMain extends React.Component{
+
+    constructor(props){
+        super(props);
+
+        this.state={
+            visible : false
+        }
+        
+    };
+
+    togglePopUp = ()=>{
+        this.setState({
+            visible : !this.state.visible
+        });
+    };
+
+    handleClose = (e)=>{
+
+        this.togglePopUp();
+
+        console.log('clicked');
+        e.stopPropagation();
+
+    };
+
+
     render(){
 
         var basicStyle = {
@@ -117,7 +144,8 @@ class CategoryMain extends React.Component{
 
                 </div>
 
-                <Lend/>
+                <Lend handleClick={this.handleClose}/>
+                <LendForm handleClick={this.handleClose} popUpVisibility={this.state.visible}/>
 
             </div>
 
