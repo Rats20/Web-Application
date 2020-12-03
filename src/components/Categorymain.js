@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import SearchBar from './Searchbar';
 import Categories from './Categories';
 import LendForm from './LendForm';
@@ -111,9 +111,9 @@ class CategoryMain extends React.Component{
 
         return(
 
-            <div>
+            <div style={{float : "left",marginTop : 100}}>
                 
-                <Heading name = "Rent a Book?"/>
+                    <Heading name = "Rent a Book?"/>
 
                 <div style={categoryStyle}>
 
@@ -123,23 +123,31 @@ class CategoryMain extends React.Component{
                     </div>
 
                     <div style = {basicStyle}>
-                        <Router>
-                            <NavLink to="/snh">
-                                <Categories name = "Science & Humanities" Width="250px" Height="150px"/>
-                            </NavLink>
-                            <NavLink to="/cse">
-                                <Categories name = "Computer Science Engineering" Width="250px" Height="150px"/>
-                            </NavLink>
-                        <Categories name = "Electronics & Communications Engineering" Width="250px" Height="150px"/>
-                        <Categories name = "Electrical & Electronics Engineering" Width="250px" Height="150px"/>
-                        <Categories name = "Mechanical Engineering" Width="250px" Height="150px"/>
-                        <Categories name = "Civil Engineering" Width="250px" Height="150px"/>
-                        <Categories name = "Biotechnology" Width="250px" Height="150px"/>
-                        <Categories name = "Aeronautical Engineering" Width="250px" Height="150px"/>
-                        <Categories name = "Chemical Engineering" Width="250px" Height="150px"/>
-                        <Categories name = "Other Reference Books" Width="850px" Height="100px"/>
+                        <Link to="/snh">
+                            <Categories name = "Science & Humanities" Width="250px" Height="150px"/>
+                        </Link>
+                        <Link to="/cse">
+                            <Categories name = "Computer Science Engineering" Width="250px" Height="150px"/>
+                        </Link>
+                        <Link to="/ece">
+                            <Categories name = "Electronics & Communications Engineering" Width="250px" Height="150px"/>
+                        </Link>
+                        <Link to="/eee">
+                            <Categories name = "Electrical & Electronics Engineering" Width="250px" Height="150px"/>
+                        </Link>
+                        <Link to="/me">
+                            <Categories name = "Mechanical Engineering" Width="250px" Height="150px"/>
+                        </Link>
+                        <Link to="/civ">
+                            <Categories name = "Civil Engineering" Width="250px" Height="150px"/>
+                        </Link>
+                        <Link to="/bt">
+                            <Categories name = "Biotechnology" Width="250px" Height="150px"/>
+                        </Link>
+                        <Link to="/others">
+                            <Categories name = "Other Reference Books" Width="540px" Height="150px"/>
+                        </Link>
 
-                        </Router>
                     </div>
 
                 </div>
