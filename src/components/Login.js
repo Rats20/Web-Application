@@ -1,8 +1,15 @@
 import React from 'react';
-import {BrowserRouter as Router, NavLink} from "react-router-dom";
+import {Link} from 'react-router-dom';
 import bgImage from './img/bgImage.jpg';
 
 class Login extends React.Component{
+
+    handleSubmit = (e)=>{
+        e.preventDefault();
+        alert("Form is submitted!");
+        e.stopPropagation();
+    };
+
     render(){
 
         var loginBoxStyle = {
@@ -45,22 +52,6 @@ class Login extends React.Component{
             height : 50
         };
 
-        var forgotPasswordStyle = {
-            fontFamily : "Times New Roman, sans-serif",
-            fontSize : 16,
-            backgroundColor : "#E3E1D9", 
-            marginTop : 20,
-            border : "none",
-            float : "right"
-        };
-
-        var rememberStyle = {
-            fontFamily : "Times New Roman, sans-serif",
-            fontSize : 18,
-            marginTop : 20,
-            float : "left"
-        };
-
         var bgImgStyle = {
             width : "auto",
             maxHeight : 826,
@@ -83,40 +74,29 @@ class Login extends React.Component{
 
                 <div style = {loginBoxStyle}>
 
-                <form>
+                <form onSubmit={this.handleSubmit}>
 
                     <label style = {textStyle}>
                         Name
-                        <input type = "text" style = {textBoxStyle} placeholder="Type here..."/>
+                        <input type = "text" required style = {textBoxStyle} placeholder="Type here..."/>
                     </label>
 
                     <label style = {textStyle}>
                         ID Number
-                        <input type = "text" style = {textBoxStyle} placeholder="Type here..."/>
+                        <input type = "text" required style = {textBoxStyle} placeholder="Type here..."/>
                     </label>
 
                     <label style = {textStyle}>
                         Password
-                        <input type = "password" style = {textBoxStyle} placeholder="Type here..."/>
+                        <input type = "password" required style = {textBoxStyle} placeholder="Type here..."/>
                     </label>
-
-                    <Router>
-                        <NavLink to="/categorymain">
-                            <button style = {loginButtonStyle}>
-                                Login
-                            </button>
-                        </NavLink>
-                    </Router>
-
-                    {/* Optional component in login page*/}
-                    <button style = {forgotPasswordStyle}>
-                        Forgot my Password?
-                    </button>
+                        
                     
-                    <label style = {rememberStyle}>
-                    <input type = "checkbox" name = "Remember me" style = {{backgrounColor : "black"}}/>
-                        Remember me
-                    </label>
+                            <Link to="/categorymain">
+                                <button type="submit" style={loginButtonStyle}>
+                                Login
+                                </button>
+                            </Link>
 
                 </form>
 
