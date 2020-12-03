@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from'react-router-dom';
 import gmail from './img/gmailIcon.jpeg';
 import twitter from './img/twitterIcon.jpeg';
 
@@ -48,21 +49,28 @@ class Header extends React.Component{
         return(
             <div style={headerStyle}>
 
+                <Link to="/">
                 <div style = {IconStyle}>
                     <svg>
-                        <circle cx="30" cy="30" r="20" stroke="white" stroke-width="5" fill="black" />
+                        <circle cx="30" cy="30" r="20" stroke="white" strokeWidth="5" fill="black" />
                     </svg>
                 </div>
+                </Link>
 
                 <div>
 
-                    <a href = "" style = {helpStyle}>Help</a>
+                    <Link to="/">
+                        <a style={helpStyle}>Sign Out</a>
+                    </Link>
+                    <a href = {process.env.PUBLIC_URL + '/help.html'} style = {helpStyle}>Help</a>
                     <a href = "https://gmail.com"><img style = {socIconStyle} src = {gmail} alt = "gmailIcon"/></a>
                     <a href = "https://twitter.com"><img style = {socIconStyle} src = {twitter} alt = "twitterIcon"/></a>
 
                 </div>
 
-                <h1 style = {collegeNameStyle}>College Name</h1>
+                <Link to='/'>
+                    <h1 style = {collegeNameStyle}>College Name</h1>
+                </Link>
 
             </div>
         );
