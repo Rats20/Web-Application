@@ -93,11 +93,13 @@ class LendForm extends React.Component{
             {
                 value : '4',
                 text : 'SEM-6'
-            },
-            {
-                value : '5',
-                text : 'SEM-7'
             });
+        }
+        else{
+                sems.push({
+                    value : '1',
+                    text : 'All'
+                });
         }
 
         console.log(sems);
@@ -120,15 +122,530 @@ class LendForm extends React.Component{
         e.stopPropagation()
     };
 
-    /*handleSelectSem = (e)=>{
+    handleSelectSem = (e)=>{
 
         let selSem = this._sem;
         let sem = selSem.options[selSem.selectedIndex].text;
+        let selbranch = this._branch;
+        let branch = selbranch.options[selbranch.selectedIndex].text;
+        let course = this._course;
 
         let courses=[];
 
+        if(branch === "Science&Humanities"){
+            if(sem === 'Physics Cycle'){
+                courses.push({
+                    value : '1',
+                    text : 'Introduction to computing using Python'
+                },
+                {
+                    value : '2',
+                    text : 'Engineering Physics'
+                },
+                {
+                    value : '3',
+                    text : 'Basic Electrical Engineering'
+                },
+                {
+                    value : '4',
+                    text : 'Mechanical Engineering Sciences'
+                },
+                {
+                    value : '5',
+                    text : 'Engineering Mathematics-1'
+                });
+            }
+            else if(sem === 'Chemistry Cycle'){
+                courses.push({
+                    value : '1',
+                    text : 'Engineering Chemistry'
+                },
+                {
+                    value : '2',
+                    text : 'Problem Solving with C'
+                },
+                {
+                    value : '3',
+                    text : 'Engineering Mechanics'
+                },
+                {
+                    value : '4',
+                    text : 'Foundation in Electronic Circuits and Systems'
+                },
+                {
+                    value : '5',
+                    text : 'Engineering Mathematics-2'
+                });
+            }
+        }
+
+        else if(branch === "Computer Science Engineering"){
+            if(sem === 'SEM-3'){
+                courses.push({
+                    value : '1',
+                    text : 'Digital Design and Computer Organization'
+                },
+                {
+                    value : '2',
+                    text : 'Data Structures and its applications'
+                },
+                {
+                    value : '3',
+                    text : 'Statistics for Data science'
+                },
+                {
+                    value : '4',
+                    text : 'Web Technologies-1'
+                },
+                {
+                    value : '5',
+                    text : 'Automata, Formal Languages and Logic'
+                },
+                {
+                    value : '6',
+                    text : 'Special Topic-1'
+                });
+            }
+            else if(sem === 'SEM-4'){
+                courses.push({
+                    value : '1',
+                    text : 'Linear Algebra and its Applications'
+                },
+                {
+                    value : '2',
+                    text : 'Design and analysis of algorithms'
+                },
+                {
+                    value : '3',
+                    text : 'Database Management System'
+                },
+                {
+                    value : '4',
+                    text : 'Microprocessor and Computer Architecture'
+                },
+                {
+                    value : '5',
+                    text : 'Theory of Computation'
+                });
+            }
+            else if(sem === 'SEM-5'){
+                courses.push({
+                    value : '1',
+                    text : 'Computer Networks'
+                },
+                {
+                    value : '2',
+                    text : 'Introduction to operating systems'
+                },
+                {
+                    value : '3',
+                    text : 'Principles of Programming Languages'
+                });
+            }
+            else if(sem === 'SEM-6'){
+                courses.push({
+                    value : '1',
+                    text : 'Compiler Design'
+                },
+                {
+                    value : '2',
+                    text : 'Cloud computing'
+                },
+                {
+                    value : '3',
+                    text : 'Machine Learning'
+                });
+            }
+        }
+
+        
+        else if(branch === "Electronics & Communications Engineering"){
+            if(sem === 'SEM-3'){
+                courses.push({
+                    value : '1',
+                    text : 'Network analysis and synthesis'
+                },
+                {
+                    value : '2',
+                    text : 'Analog Circuit Design'
+                },
+                {
+                    value : '3',
+                    text : 'Digital Circuit Design'
+                },
+                {
+                    value : '4',
+                    text : 'Signals and systems'
+                });
+            }
+            else if(sem === 'SEM-4'){
+                courses.push({
+                    value : '1',
+                    text : 'Linear Algebra'
+                },
+                {
+                    value : '2',
+                    text : 'Control Systems'
+                },
+                {
+                    value : '3',
+                    text : 'Computer Organization'
+                },
+                {
+                    value : '4',
+                    text : 'VLSI'
+                },
+                {
+                    value : '5',
+                    text : 'Electromagnetic field & Transmission lines'
+                });
+            }
+            else if(sem === 'SEM-5'){
+                courses.push({
+                    value : '1',
+                    text : 'Communication Engineering'
+                },
+                {
+                    value : '2',
+                    text : 'Microwave Engineering'
+                },
+                {
+                    value : '3',
+                    text : 'VLSI Design'
+                });
+            }
+            else if(sem === 'SEM-6'){
+                courses.push({
+                    value : '1',
+                    text : 'Computer Networks'
+                },
+                {
+                    value : '2',
+                    text : 'Digital Computing'
+                },
+                {
+                    value : '3',
+                    text : 'Digital System Design'
+                });
+            }
+        }
+
+        else if(branch === "Electrical & Electronics Engineering"){
+            if(sem === 'SEM-3'){
+                courses.push({
+                    value : '1',
+                    text : 'Engineering Mathematics-3'
+                },
+                {
+                    value : '2',
+                    text : 'Electric Circuit Theory'
+                },
+                {
+                    value : '3',
+                    text : 'Analog Electronic Circuits'
+                },
+                {
+                    value : '4',
+                    text : 'Digital Electronics'
+                },
+                {
+                    value : '5',
+                    text : 'Electromagnetic Theory'
+                });
+            }
+            else if(sem === 'SEM-4'){
+                courses.push({
+                    value : '1',
+                    text : 'Linear Algebra and its Applications'
+                },
+                {
+                    value : '2',
+                    text : 'Linear Integrated Circuits'
+                },
+                {
+                    value : '3',
+                    text : 'Electrical Machines-1'
+                },
+                {
+                    value : '4',
+                    text : 'Power Electronics'
+                },
+                {
+                    value : '5',
+                    text : 'Generation Transmission and Distribution'
+                });
+            }
+            else if(sem === 'SEM-5'){
+                courses.push({
+                    value : '1',
+                    text : 'Electrical Machines-2'
+                },
+                {
+                    value : '2',
+                    text : 'Microcontrollers'
+                },
+                {
+                    value : '3',
+                    text : 'Signals & Systems'
+                });
+            }
+            else if(sem === 'SEM-6'){
+                courses.push({
+                    value : '1',
+                    text : 'Power System Analysis & Stability'
+                },
+                {
+                    value : '2',
+                    text : 'Control Systems'
+                },
+                {
+                    value : '3',
+                    text : 'Digital Signal Processing'
+                });
+            }
+        }
+
+        else if(branch === "Mechanical Engineering"){
+            if(sem === 'SEM-3'){
+                courses.push({
+                    value : '1',
+                    text : 'Material Science and Metallurgy'
+                },
+                {
+                    value : '2',
+                    text : 'Mechanics of Solids'
+                },
+                {
+                    value : '3',
+                    text : 'Engineering Thermodynamics'
+                },
+                {
+                    value : '4',
+                    text : 'Metal Casting and Welding process'
+                });
+            }
+            else if(sem === 'SEM-4'){
+                courses.push({
+                    value : '1',
+                    text : 'Engineering Mechanics Dynamics'
+                },
+                {
+                    value : '2',
+                    text : 'Mechanics of Machines and Mechanism'
+                },
+                {
+                    value : '3',
+                    text : 'Mechanics of fluid'
+                },
+                {
+                    value : '4',
+                    text : 'Elective surface Engineering'
+                });
+            }
+            else if(sem === 'SEM-5'){
+                courses.push({
+                    value : '1',
+                    text : 'Design of Machine Elements'
+                },
+                {
+                    value : '2',
+                    text : 'Principles of Energy Conversion'
+                },
+                {
+                    value : '3',
+                    text : 'Metal Cutting and Machine Processes'
+                },
+                {
+                    value : '4',
+                    text : 'Introduction to Aerodynamics'
+                });
+            }
+            else if(sem === 'SEM-6'){
+                courses.push({
+                    value : '1',
+                    text : 'Automotive Electronics'
+                },
+                {
+                    value : '2',
+                    text : 'Smart Materials'
+                },
+                {
+                    value : '3',
+                    text : 'Computational Fluid Dynamics'
+                },
+                {
+                    value : '4',
+                    text : 'Principles of Flight'
+                });
+            }
+        }
+
+        else if(branch === "Civil Engineering"){
+            if(sem === 'SEM-3'){
+                courses.push({
+                    value : '1',
+                    text : 'Strength of Materials'
+                },
+                {
+                    value : '2',
+                    text : 'Fluid Mechanics'
+                },
+                {
+                    value : '3',
+                    text : 'GeoInformatics'
+                },
+                {
+                    value : '4',
+                    text : 'Construction materials and Technology'
+                });
+            }
+            else if(sem === 'SEM-4'){
+                courses.push({
+                    value : '1',
+                    text : 'Concrete Technology'
+                },
+                {
+                    value : '2',
+                    text : 'Transportation Engineering'
+                },
+                {
+                    value : '3',
+                    text : 'Structural Analysis'
+                },
+                {
+                    value : '4',
+                    text : 'Hydraulics & Machinery'
+                });
+            }
+            else if(sem === 'SEM-5'){
+                courses.push({
+                    value : '1',
+                    text : 'Design and Detailing of RC'
+                },
+                {
+                    value : '2',
+                    text : 'Fundamentals of Geotechnical Engineering'
+                });
+            }
+            else if(sem === 'SEM-6'){
+                courses.push({
+                    value : '1',
+                    text : 'Design and Detailing of Steel Structural Elements'
+                },
+                {
+                    value : '2',
+                    text : 'Advanced Geotechnical Engineering'
+                },
+                {
+                    value : '3',
+                    text : 'Alternative Building Material and Technology'
+                });
+            }
+        }
+
+        else if(branch === "Biotechnology"){
+            if(sem === 'SEM-3'){
+                courses.push({
+                    value : '1',
+                    text : 'Engineering Mathematics-3'
+                },
+                {
+                    value : '2',
+                    text : 'Bioprocess Calculations'
+                },
+                {
+                    value : '3',
+                    text : 'Microbiology'
+                },
+                {
+                    value : '4',
+                    text : 'Biochemistry : Biomolecules'
+                },
+                {
+                    value : '5',
+                    text : 'Special Topic-1'
+                });
+            }
+            else if(sem === 'SEM-4'){
+                courses.push({
+                    value : '1',
+                    text : 'Linear Algebra and its Applications'
+                },
+                {
+                    value : '2',
+                    text : 'Genetics and Molecular Biology'
+                },
+                {
+                    value : '3',
+                    text : 'Biochemistry: Metabolism'
+                },
+                {
+                    value : '4',
+                    text : 'Mass transfer'
+                },
+                {
+                    value : '5',
+                    text : 'Special Topic'
+                });
+            }
+            else if(sem === 'SEM-5'){
+                courses.push({
+                    value : '1',
+                    text : 'Bioprocess Reaction Engineering'
+                },
+                {
+                    value : '2',
+                    text : 'Genetic Engineering and applications'
+                },
+                {
+                    value : '3',
+                    text : 'Bioinformatics'
+                });
+            }
+            else if(sem === 'SEM-6'){
+                courses.push({
+                    value : '1',
+                    text : 'Bioprocess Systems Analysis and Control'
+                },
+                {
+                    value : '2',
+                    text : 'Upstrem Process Technology'
+                },
+                {
+                    value : '3',
+                    text : 'Immunology'
+                },
+                {
+                    value : '4',
+                    text : 'Special Topic'
+                });
+            }
+        }
+
+        else if(branch === 'Other Books'){
+            if(sem === 'All'){
+                courses.push({
+                    value : '1',
+                    text : 'All Courses'
+                });
+            }
+        }
+
+        if(course.options.length !== 0)
+        {
+            for (let i = course.options.length-1; i >= 0; i--) {
+                course.options[i] = null;
+            }
+        }
+
+        courses.forEach(option =>
+            course.options.add(
+                new Option(option.text,option.value)
+            )  
+        ); 
+
         e.stopPropagation();
-    };*/
+    };
 
 
     render(){
@@ -204,13 +721,13 @@ class LendForm extends React.Component{
 
                 <div style={{marginTop : 10, float : "left", width : 550, marginLeft : 50}}>
                     <label style={labelStyle}>Book Owner</label>
-                    <input type="text" maxLength="100" required style={textBoxStyle} placeholder="Type Here..."/>
+                    <input type="text" maxLength="20" required style={textBoxStyle} placeholder="Type Here..."/>
 
                     <label style={labelStyle}>Contact Number</label>
                     <input type="text" maxLength="10" id="contactNum" className={this.state.isErr} onKeyUp={this.numValidatn} placeholder="Type Here..."/>
 
                     <label style={labelStyle}>Title of the book</label>
-                    <input type="text" maxLength="100" required style={textBoxStyle} placeholder="Type Here..."/>
+                    <input type="text" maxLength="60" required style={textBoxStyle} placeholder="Type Here..."/>
 
                     <label style={labelStyle}>
                         Belongs to the branch
@@ -227,8 +744,6 @@ class LendForm extends React.Component{
                         <option value="5">Mechanical Engineering</option>
                         <option value="6">Civil Engineering</option>
                         <option value="7">Biotechnology</option>
-                        <option value="8">Aeronautical Engineering</option>
-                        <option value="9">Chemical Engineering</option>
                         <option value="10">Other Books</option>
                     </select>
 
@@ -238,7 +753,7 @@ class LendForm extends React.Component{
                     </select>
 
                     <label style={labelStyle}>Belongs to the course</label>
-                    <select id="sem" class="custom-select" required ref={(ele)=>this._course=ele}>
+                    <select id="course" class="custom-select" required ref={(ele)=>this._course=ele}>
                         <option value="" disabled selected>Choose</option>
                     </select>
 
@@ -249,7 +764,7 @@ class LendForm extends React.Component{
                         <button style={buttonStyle}>Upload image</button>
                         <input type="file" accept="image/*" onChange={this.preview_image}/>
                     </div>
-                    <img id="output_image" style={imgStyle}/> 
+                    <img id="output_image" style={imgStyle} /> 
                     <input type="submit" style={buttonStyle} disabled={this.state.isEnabled} value="Lend"/> 
                 </div>
 
