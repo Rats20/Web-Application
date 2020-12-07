@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "5fc8cde71c992cbb02161382"
+  },
+  "Textbook_name": "Engineering Chemistry",
+  "Owner_name": "Rakshith P",
+  "Availability": "In_stock",
+  "Contact_no": "7665566778",
+  "Course": "Engineering Chemistry"
+},{
+  "_id": {
+    "$oid": "5fc8cde71c992cbb02161383"
+  },
+  "Textbook_name": "Problem Solving With C ,2nd Edition",
+  "Owner_name": "Amritha ",
+  "Availability": "In_stock",
+  "Contact_no": "8445566778",
+  "Course": "Problem Solving With C "
+},{
+  "_id": {
+    "$oid": "5fc8cde81c992cbb02161384"
+  },
+  "Textbook_name": "Engineering Biology",
+  "Owner_name": "Rohini",
+  "Availability": "In_stock",
+  "Contact_no": "9880039883",
+  "Course": "Engineering Biology"
+},{
+  "_id": {
+    "$oid": "5fc8cde81c992cbb02161385"
+  },
+  "Textbook_name": "Basic Electronic Engineering",
+  "Owner_name": "Karishma",
+  "Availability": "In_stock",
+  "Contact_no": "9999876768",
+  "Course": "Basic Electronic Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cde91c992cbb02161386"
+  },
+  "Textbook_name": "Engineering Mechanics Statics",
+  "Owner_name": "Chahal",
+  "Availability": "In_stock",
+  "Contact_no": "7889999876",
+  "Course": "Engineering Mechanics"
+},{
+  "_id": {
+    "$oid": "5fc8cdea1c992cbb02161387"
+  },
+  "Textbook_name": "Engineering Mathematics",
+  "Owner_name": "Dhoni",
+  "Availability": "In_stock",
+  "Contact_no": "7778678564",
+  "Course": "Engineering Mathematics"
+},{
+  "_id": {
+    "$oid": "5fc8cdea1c992cbb02161388"
+  },
+  "Textbook_name": "Engineering Chemistry",
+  "Owner_name": "Salman ",
+  "Availability": "In_stock",
+  "Contact_no": "8889654367",
+  "Course": "Engineering Chemistry"
+},{
+  "_id": {
+    "$oid": "5fc8cdeb1c992cbb02161389"
+  },
+  "Textbook_name": "Problem Solving With C ,2nd Edition",
+  "Owner_name": "Madhuri",
+  "Availability": "In_stock",
+  "Contact_no": "9006544321",
+  "Course": "Problem Solving With C "
+},{
+  "_id": {
+    "$oid": "5fc979e1562adaa8e1785188"
+  },
+  "Textbook_name": "Engineering Biology",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Engineering Biology"
+},{
+  "_id": {
+    "$oid": "5fc979e2562adaa8e1785189"
+  },
+  "Textbook_name": "Basic Electronic Engineering",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Basic Electronic Engineering"
+},{
+  "_id": {
+    "$oid": "5fc979e5562adaa8e178518a"
+  },
+  "Textbook_name": "Engineering Mechanics Statics",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Engineering Mechanics "
+},{
+  "_id": {
+    "$oid": "5fc979e6562adaa8e178518b"
+  },
+  "Textbook_name": "Engineering Mathematics",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Engineering Mathematics"
+}]
