@@ -28,7 +28,7 @@ class Book extends React.Component{
 
         var stockStyle;
 
-        if(this.props.stock === "In stock"){
+        if(this.props.stock === "In_stock" || this.props.stock === "In-stock" || this.props.stock === "In-Stock"){
             stockStyle = {
                 fontFamily : "Arial, Times, Lucida Grande",
                 fontSize : 20,
@@ -48,7 +48,7 @@ class Book extends React.Component{
 
         return(
             <div style={boxStyle}>
-                <img src={this.props.source} alt="Book Image" style={imgStyle}/>
+                <img src={this.props.source} alt="Book" style={imgStyle}/>
                 <p style={letterStyle}>{this.props.tbName}</p>
                 <p style={letterStyle}>Book owner : {this.props.owner}</p>
                 <p style={letterStyle}>Contact Details : {this.props.phno}</p>
