@@ -1,14 +1,72 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+//import {useHistory} from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
 import bgImage from './img/bgImage.jpg';
 
 class Login extends React.Component{
 
+    constructor(props){
+        super(props);
+
+        this.state = {
+            valid : 'Invalid',
+            redirect : false
+        };
+    }
+
     handleSubmit = (e)=>{
+        console.log('Handling Submit...');
+
+        //const history = useHistory();
+
+        var loginInfo = {
+            name : this._name.value,
+            id : this._id.value,
+            password : this._password.value
+        };
+
+        console.log('Name : '+loginInfo.name);
+        //console.log('Type of : '+typeof(loginInfo.name))
+        console.log('Username : '+loginInfo.id);
+        console.log('Password : '+loginInfo.password);
+        //console.log('Object : '+JSON.stringify(loginInfo));
+
+        fetch('http://localhost:8080/',{
+            method : 'POST',
+            headers : {'content-type':'application/json'},
+            //Posting the data via the body
+            body : JSON.stringify({"name": loginInfo.name, "id" : loginInfo.id, "password" : loginInfo.password})
+        }).then((res)=>res.text()).then((res)=>{
+            this.setState({
+                valid : res
+            });
+            console.log('Login : '+this.state.valid)
+            if(this.state.valid === 'Valid')
+            {
+                this.setState({
+                    redirect : true
+                });
+                //history.push('/categorymain');
+            }
+            else{
+                alert('Invalid credentials');
+            }
+        });
         e.preventDefault();
-        alert("Form is submitted!");
         e.stopPropagation();
     };
+
+    /*componentDidUpdate(){
+        console.log('Component has mounted');
+        fetch('http://localhost:8080/data',{
+            method : 'POST',
+            headers : {'content-type' : 'applications/json'},
+            //Posting the data via the body
+            body : JSON.stringify({'works': this.state.works})
+        }).then((res)=>res.text()).then((res)=>{
+            console.log(res);
+        });
+    }*/
 
     render(){
 
@@ -67,6 +125,11 @@ class Login extends React.Component{
             left : "50%"
         };
 
+        const redirect = this.state.redirect;
+        //const valid = this.state.valid;
+        if(redirect){
+            return <Redirect to='/categorymain'/>
+        }
 
         return(
 
@@ -78,32 +141,32 @@ class Login extends React.Component{
 
                     <label style = {textStyle}>
                         Name
-                        <input type = "text" required style = {textBoxStyle} placeholder="Type here..."/>
+                        <input type = "text" required ref={(ele)=>this._name=ele} style = {textBoxStyle} placeholder="Type here..."/>
                     </label>
 
                     <label style = {textStyle}>
                         ID Number
-                        <input type = "text" required style = {textBoxStyle} placeholder="Type here..."/>
+                        <input type = "text" required ref={(ele)=>this._id=ele} style = {textBoxStyle} placeholder="Type here..."/>
                     </label>
 
                     <label style = {textStyle}>
                         Password
-                        <input type = "password" required style = {textBoxStyle} placeholder="Type here..."/>
+                        <input type = "password" required ref={(ele)=>this._password=ele} style = {textBoxStyle} placeholder="Type here..."/>
                     </label>
                         
                     
-                            <Link to="/categorymain">
-                                <button type="submit" style={loginButtonStyle}>
-                                Login
-                                </button>
-                            </Link>
+                    {/*<Link to={this.state.path}>*/}
+                        <button type="submit" style={loginButtonStyle}>
+                            Login
+                        </button>
+                    {/*</Link>*/}        
 
                 </form>
 
                 </div>
 
                 <div style = {bgImgStyle}>
-                    <img src = {bgImage} alt = "Loading Image" />
+                    <img src = {bgImage} alt = "Loading..." />
                 </div>
 
                 <h1 style = {mainHeadingStyle}>
