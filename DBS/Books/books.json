@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5fc8def3dda58f866e74616d"
+  },
+  "Textbook_Name": "Bioprocess Engineering Principles, Pauline.M Doran",
+  "Owner_Name": "Ritika",
+  "Availability": "In-stock",
+  "Contact_no": 9987677854,
+  "Course": "Bioprocess Calculation"
+},{
+  "_id": {
+    "$oid": "5fc8e37fdda58f866e74616e"
+  },
+  "Textbook_Name": "Textbook of Microbiology",
+  "Owner_Name": "Ritika",
+  "Availability": "In-Stock",
+  "Contact_no": 9987677854,
+  "Course": "Microbiology"
+},{
+  "_id": {
+    "$oid": "5fc8e41bdda58f866e74616f"
+  },
+  "Textbook_Name": "Understanding Biochemistry Biomolecule",
+  "Owner_Name": "shwetha",
+  "Availability": "In-stock",
+  "Contact_no": 8978996654,
+  "Course": "Biochemistry: Biomolecule"
+},{
+  "_id": {
+    "$oid": "5fc8e52f867ea35dd8434006"
+  },
+  "Textbook_Name": "Bioprocess Engineering Principles, Pauline.M Doran",
+  "Owner_Name": "Shwetha",
+  "Availability": "In-stock",
+  "Contact_no": 8978996654,
+  "Course": "Bioprocess Calculation"
+}]

@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "5fc91dc3dda58f866e746176"
+  },
+  "Textbook_Name": "Communication Engineering, S.Vijayachitra",
+  "Owner_Name": "Paras C",
+  "Availability": "In-stock",
+  "Contact_no": 9902367875,
+  "Course": "Communication Enginnering"
+},{
+  "_id": {
+    "$oid": "5fc91eed867ea35dd8434014"
+  },
+  "Textbook_Name": "Microwave Engineering Book, David. M Pozar",
+  "Owner_Name": "Paras C",
+  "Availability": "In-stock",
+  "Contact_no": 9902367875,
+  "Course": "Microwave Enginnering"
+}]

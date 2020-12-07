@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "5fcd9a0c13c8a229f00ed775"
+  },
+  "Textbook_Name": "Textbook of Linear algebra",
+  "Owner_Name": "Keshav",
+  "Availability": "In-stock",
+  "Contact_no": 5679975545,
+  "Course": "Liner Algebra and its Applications"
+},{
+  "_id": {
+    "$oid": "5fcd9ba16cbcd56bb4648585"
+  },
+  "Textbook_Name": "Textbook of Integrated circuits",
+  "Owner_Name": "Teejay",
+  "Availability": "In-stock",
+  "Contact_no": 7889980654,
+  "Course": "Liner Integrated Circuits"
+},{
+  "_id": {
+    "$oid": "5fcd9c5a6cbcd56bb4648586"
+  },
+  "Textbook_Name": "Textbook of Electrical Machines Part-I",
+  "Owner_Name": "Rex Adams",
+  "Availability": "In-stock",
+  "Contact_no": 5567879034,
+  "Course": "Electrical Machines-I"
+},{
+  "_id": {
+    "$oid": "5fcd9c8b6cbcd56bb4648587"
+  },
+  "Textbook_Name": "Textbook of Power Electronics",
+  "Owner_Name": "Rex Adams",
+  "Availability": "In-stock",
+  "Contact_no": 5567879034,
+  "Course": "Power Electronics"
+},{
+  "_id": {
+    "$oid": "5fcd9cba6cbcd56bb4648588"
+  },
+  "Textbook_Name": "Textbook of Power Electronics",
+  "Owner_Name": "Rex Adams",
+  "Availability": "In-stock",
+  "Contact_no": 5567879034,
+  "Course": "Generation Transmission and Distribution"
+}]

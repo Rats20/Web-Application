@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5fc8e6dcdda58f866e746170"
+  },
+  "Textbook_Name": "Linear Algebra, 5th Edition, Mcgraw Hill",
+  "Owner_Name": "Hepziba",
+  "Availability": "In-stock",
+  "Contact_no": 8754342214,
+  "Course": "Linear Algebra and its Applications"
+},{
+  "_id": {
+    "$oid": "5fc8e82cdda58f866e746171"
+  },
+  "Textbook_Name": "Biochemistry, Genetics & Molecular Biology, Maria T.G",
+  "Owner_Name": "Shwetha",
+  "Availability": "In-stock",
+  "Contact_no": 8978996654,
+  "Course": "Genetics and Molecular Biology"
+},{
+  "_id": {
+    "$oid": "5fc8ea1f867ea35dd8434007"
+  },
+  "Textbook_Name": "Biochemistry, Genetics & Molecular Biology, Maria T.G",
+  "Owner_Name": "Shwetha",
+  "Availability": "In-stock",
+  "Contact_no": 8978996654,
+  "Course": "Biochemistry: Metabolism"
+},{
+  "_id": {
+    "$oid": "5fc8ea4b867ea35dd8434008"
+  },
+  "Textbook_Name": "Textbook of Mass Transfer",
+  "Owner_Name": "Hepziba",
+  "Availability": "In-stock",
+  "Contact_no": 8754342214,
+  "Course": "Mass Transfer"
+}]

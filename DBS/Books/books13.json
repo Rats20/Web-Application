@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "5fcd960413c8a229f00ed774"
+  },
+  "Textbook_Name": "Higher Engineering Mathematics, BV Raman",
+  "Owner_Name": "Aditi Nayak",
+  "Availability": "In-stock",
+  "Contact_no": 9945476854,
+  "Course": "Engineering Mathematics-III"
+},{
+  "_id": {
+    "$oid": "5fcd979c6cbcd56bb4648580"
+  },
+  "Textbook_Name": "Electric Circuits, Seventh Edition",
+  "Owner_Name": "Vishnu Prasad",
+  "Availability": "In-stock",
+  "Contact_no": 9945456342,
+  "Course": "Electric Circuit Theory"
+},{
+  "_id": {
+    "$oid": "5fcd99216cbcd56bb4648582"
+  },
+  "Textbook_Name": "CMOS Digital Integrated Circuits Analysis and Design, 4th Edition",
+  "Owner_Name": "Jadhav",
+  "Availability": "In-stock",
+  "Contact_no": 9945678876,
+  "Course": "Analog Electronic Circuits"
+},{
+  "_id": {
+    "$oid": "5fcd993b6cbcd56bb4648583"
+  },
+  "Textbook_Name": "CMOS Digital Integrated Circuits Analysis and Design, 4th Edition",
+  "Owner_Name": "Jadhav",
+  "Availability": "In-stock",
+  "Contact_no": 9945678876,
+  "Course": "Digital Electronics"
+},{
+  "_id": {
+    "$oid": "5fcd99ca6cbcd56bb4648584"
+  },
+  "Textbook_Name": "Electromagnetic Theory, 5th edition",
+  "Owner_Name": "Kevin",
+  "Availability": "In-stock",
+  "Contact_no": 8765677834,
+  "Course": "Electromagnetic Theory"
+}]

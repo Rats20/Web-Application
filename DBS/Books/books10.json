@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5fc91aeddda58f866e746175"
+  },
+  "Textbook_Name": "Modern Control Engineering, Katsuhiko Ogata",
+  "Owner_Name": "Manav T",
+  "Availability": "In-stock",
+  "Contact_no": 8798005467,
+  "Course": "Control System"
+},{
+  "_id": {
+    "$oid": "5fc91c2a867ea35dd8434011"
+  },
+  "Textbook_Name": "Computer Organisation and Architecture, 10th Edition",
+  "Owner_Name": "Tashia F",
+  "Availability": "In-stock",
+  "Contact_no": 8798007789,
+  "Course": "Computer Organisation"
+},{
+  "_id": {
+    "$oid": "5fc91caa867ea35dd8434012"
+  },
+  "Textbook_Name": "Algorithms for VLSI Physical Design Automation, 3rd Edition",
+  "Owner_Name": "Tashia F",
+  "Availability": "In-stock",
+  "Contact_no": 8798007789,
+  "Course": "VLSI"
+},{
+  "_id": {
+    "$oid": "5fc91d64867ea35dd8434013"
+  },
+  "Textbook_Name": "Electromagnetic Field Theory and Transmission Lines, T.Natraj",
+  "Owner_Name": "Daniel",
+  "Availability": "In-stock",
+  "Contact_no": 5676890903,
+  "Course": "Electromagnetic Field and Transmission Lines"
+}]

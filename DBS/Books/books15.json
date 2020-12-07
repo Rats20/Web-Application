@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5fcd9ce513c8a229f00ed776"
+  },
+  "Textbook_Name": "Textbook of Electricals PART-II",
+  "Owner_Name": "Vivek",
+  "Availability": "In-stock",
+  "Contact_no": 3345676809,
+  "Course": "Electical Machines-II"
+},{
+  "_id": {
+    "$oid": "5fcd9ee46cbcd56bb4648589"
+  },
+  "Textbook_Name": "Microcontrollers and its Applications",
+  "Owner_Name": "Vijay Patil",
+  "Availability": "In-stock",
+  "Contact_no": 9987001243,
+  "Course": "Microcongtrollers"
+},{
+  "_id": {
+    "$oid": "5fcd9f406cbcd56bb464858a"
+  },
+  "Textbook_Name": "Electronics Signals and Systems, third Edition",
+  "Owner_Name": "Aarushi",
+  "Availability": "In-stock",
+  "Contact_no": 998707887,
+  "Course": "Signals and System"
+}]

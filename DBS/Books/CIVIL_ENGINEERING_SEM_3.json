@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5fc8ced81c992cbb02161417"
+  },
+  "Textbook_name": "Strength Of Material",
+  "Owner_name": "Neeraj Modhi",
+  "Availability": "In_stock",
+  "Contact_no": "8737890578",
+  "Course": "Strength Of Material"
+},{
+  "_id": {
+    "$oid": "5fc8ceda1c992cbb02161418"
+  },
+  "Textbook_name": "Fluid Mechanics",
+  "Owner_name": "Savithri",
+  "Availability": "In_stock",
+  "Contact_no": "8766889968",
+  "Course": "Fluid Mechanics"
+},{
+  "_id": {
+    "$oid": "5fc8cedb1c992cbb02161419"
+  },
+  "Textbook_name": "Application Of Geomatics In Civil Engineering",
+  "Owner_name": "Lithesh R",
+  "Availability": "In_stock",
+  "Contact_no": "7556600998",
+  "Course": "Gioinformatics"
+},{
+  "_id": {
+    "$oid": "5fc8cedb1c992cbb0216141a"
+  },
+  "Textbook_name": " Materials In Construction",
+  "Owner_name": "Gayathri Sunil",
+  "Availability": "In_stock",
+  "Contact_no": "8738667745",
+  "Course": "Construction Material And Technology"
+},{
+  "_id": {
+    "$oid": "5fc8cedc1c992cbb0216141b"
+  },
+  "Textbook_name": "Strength Of Material",
+  "Owner_name": "Vinay",
+  "Availability": "In_stock",
+  "Contact_no": "9885567845",
+  "Course": "Strength Of Material"
+},{
+  "_id": {
+    "$oid": "5fc8cedd1c992cbb0216141c"
+  },
+  "Textbook_name": "Fluid Mechanics",
+  "Owner_name": "Jhthika",
+  "Availability": "In_stock",
+  "Contact_no": "8550089767",
+  "Course": "Fluid Mechanics"
+},{
+  "_id": {
+    "$oid": "5fc8cedd1c992cbb0216141d"
+  },
+  "Textbook_name": "Application Of Geomatics In Civil Engineering",
+  "Owner_name": "Jasmin T",
+  "Availability": "In_stock",
+  "Contact_no": "9885566234",
+  "Course": "Gioinformatics"
+},{
+  "_id": {
+    "$oid": "5fc8cee41c992cbb02161429"
+  },
+  "Textbook_name": " Materials In Construction",
+  "Owner_name": "Chandan H",
+  "Availability": "In_stock",
+  "Contact_no": "8223344667",
+  "Course": "Construction Material And Technology"
+}]

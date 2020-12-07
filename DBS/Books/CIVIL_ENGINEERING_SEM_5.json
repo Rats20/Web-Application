@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5fc8cf191c992cbb02161446"
+  },
+  "Textbook_name": "Design Of Structural Element",
+  "Owner_name": "Hina Khan",
+  "Availability": "In_stock",
+  "Contact_no": "7886699550",
+  "Course": "Design And Detailing Of Steel Structural Element"
+},{
+  "_id": {
+    "$oid": "5fc8cf1c1c992cbb02161449"
+  },
+  "Textbook_name": "Advanced Geothechnical Engineering",
+  "Owner_name": "Kruthika",
+  "Availability": "In_stock",
+  "Contact_no": "9223378995",
+  "Course": "Advanced Geothechnical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cf1c1c992cbb0216144a"
+  },
+  "Textbook_name": "Alternative Building Material And Technology",
+  "Owner_name": "Rajesh",
+  "Availability": "In_stock",
+  "Contact_no": "7112255446",
+  "Course": "Alternative Building Material And Technology"
+},{
+  "_id": {
+    "$oid": "5fc8cf1d1c992cbb0216144b"
+  },
+  "Textbook_name": "Design Of Structural Element",
+  "Owner_name": "Lavanya P",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Design And Detailing Of Steel Structural Element"
+},{
+  "_id": {
+    "$oid": "5fc8cf1e1c992cbb0216144c"
+  },
+  "Textbook_name": "Advanced Geothechnical Engineering",
+  "Owner_name": "Suresh H",
+  "Availability": "In_stock",
+  "Contact_no": "8112233441",
+  "Course": "Advanced Geothechnical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cf1e1c992cbb0216144d"
+  },
+  "Textbook_name": "Alternative Building Material And Technology",
+  "Owner_name": "Gagan",
+  "Availability": "In_stock",
+  "Contact_no": "9006633446",
+  "Course": "Alternative Building Material And Technology"
+},{
+  "_id": {
+    "$oid": "5fc8cf1f1c992cbb0216144e"
+  },
+  "Textbook_name": "Design Of Structural Elemen",
+  "Owner_name": "Hema P",
+  "Availability": "In_stock",
+  "Contact_no": "8776688906",
+  "Course": "Design And Detailing Of Steel Structural Element"
+},{
+  "_id": {
+    "$oid": "5fc8cf201c992cbb02161450"
+  },
+  "Textbook_name": "Advanced Geothechnical Engineering",
+  "Owner_name": "Dhayanand H",
+  "Availability": "In_stock",
+  "Contact_no": "7556688976",
+  "Course": "Advanced Geothechnical Engineering"
+}]

@@ -1,0 +1,82 @@
+[{
+  "_id": {
+    "$oid": "5fc8ceee1c992cbb0216142a"
+  },
+  "Textbook_name": "Design And Detailing Of RC Structural Elements  ",
+  "Owner_name": "Prajwal D",
+  "Availability": "In_stock",
+  "Contact_no": "9449226758",
+  "Course": "Design Of Structural Elements "
+},{
+  "_id": {
+    "$oid": "5fc8ceef1c992cbb0216142b"
+  },
+  "Textbook_name": "Computational Structural Mechanics",
+  "Owner_name": "Anirudh",
+  "Availability": "In_stock",
+  "Contact_no": "8776254765",
+  "Course": "Computational Structural Analysis"
+},{
+  "_id": {
+    "$oid": "5fc8ceef1c992cbb0216142c"
+  },
+  "Textbook_name": " Geotechnical Engineering,4th Edition",
+  "Owner_name": "Surya M",
+  "Availability": "In_stock",
+  "Contact_no": "7445562789",
+  "Course": "Fundamental OF Geotechnical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cef01c992cbb0216142d"
+  },
+  "Textbook_name": "Design And Detailing Of RC Structural Elements ",
+  "Owner_name": "Medha V T",
+  "Availability": "In_stock",
+  "Contact_no": "8667726782",
+  "Course": "Design Of Structural Elements"
+},{
+  "_id": {
+    "$oid": "5fc8cef01c992cbb0216142e"
+  },
+  "Textbook_name": "Computational Structural Mechanics",
+  "Owner_name": "Deepthi P",
+  "Availability": "In_stock",
+  "Contact_no": "7664455987",
+  "Course": "Computational Structural Analysis"
+},{
+  "_id": {
+    "$oid": "5fc8cef11c992cbb0216142f"
+  },
+  "Textbook_name": " Geotechnical Engineering,4th Edition",
+  "Owner_name": "Harish Sharma",
+  "Availability": "In_stock",
+  "Contact_no": "9884455667",
+  "Course": "Fundamental OF Geotechnical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cef11c992cbb02161430"
+  },
+  "Textbook_name": "Design And Detailing Of RC Structural Elements ",
+  "Owner_name": "Sohani ",
+  "Availability": "In_stock",
+  "Contact_no": "7889977665",
+  "Course": "Design And Detailing Of RC Structural Elements "
+},{
+  "_id": {
+    "$oid": "5fc8cef21c992cbb02161431"
+  },
+  "Textbook_name": " Geotechnical Engineering,4th Edition",
+  "Owner_name": "Rudra N",
+  "Availability": "In_stock",
+  "Contact_no": "9006677456",
+  "Course": "Fundamental OF Geotechnical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cef21c992cbb02161432"
+  },
+  "Textbook_name": "Computational Structural Mechanics",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8225566789",
+  "Course": "Computational Structural Analysis"
+}]

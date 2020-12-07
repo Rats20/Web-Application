@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5fc899e802b7d64e0dbf9d9f"
+  },
+  "Textbook_Name": "Textbook of Computer Network",
+  "Owner_Name": "Richa Singh",
+  "Availability": "In-stock",
+  "Contact_no": 9954674343,
+  "Course": "Computer Network"
+},{
+  "_id": {
+    "$oid": "5fc89adc20e2ea2f18db049c"
+  },
+  "Textbook_Name": "Introduction to Operating systems, 5th Edition, Macmillan",
+  "Owner_Name": "Richa Singh",
+  "Availability": "In-stock",
+  "Contact_no": 9954674343,
+  "Course": "Introduction to Operating Systems"
+},{
+  "_id": {
+    "$oid": "5fc89beb02b7d64e0dbf9da0"
+  },
+  "Textbook_Name": "Principles of Programming Languages, Seema Kedar",
+  "Owner_Name": "Shika Nair",
+  "Availability": "In-stock",
+  "Contact_no": 6787988899,
+  "Course": "Principles of Programming Languages"
+},{
+  "_id": {
+    "$oid": "5fc89fff20e2ea2f18db049d"
+  },
+  "Textbook_Name": "Introduction to Operating systems, 5th Edition, Macmillan",
+  "Owner_Name": "Maanvi Prakash",
+  "Availability": "In-stock",
+  "Contact_no": 9954667368,
+  "Course": "Introduction to Operating Systems"
+}]

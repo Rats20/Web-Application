@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "5fc8ce4d1c992cbb021613c0"
+  },
+  "Textbook_name": "Introduction To Automative Electronics",
+  "Owner_name": "Sana Fathima",
+  "Availability": "In_stock",
+  "Contact_no": "7834571002",
+  "Course": "Automative Electronics"
+},{
+  "_id": {
+    "$oid": "5fc8ce4e1c992cbb021613c1"
+  },
+  "Textbook_name": "Smart Materials And Structures",
+  "Owner_name": "Jenny ",
+  "Availability": "In_stock",
+  "Contact_no": "8774476580",
+  "Course": "Smart Materials"
+},{
+  "_id": {
+    "$oid": "5fc8ce4f1c992cbb021613c2"
+  },
+  "Textbook_name": "Fundamentals Of Computational Fluid Dynamics",
+  "Owner_name": "Sudharshan",
+  "Availability": "In_stock",
+  "Contact_no": "8256872238",
+  "Course": "Computational Fluid Dynamics"
+},{
+  "_id": {
+    "$oid": "5fc8ce501c992cbb021613c3"
+  },
+  "Textbook_name": "Flight Dynamic Principles",
+  "Owner_name": "Yashas k",
+  "Availability": "In_stock",
+  "Contact_no": "9866334567",
+  "Course": "Principles Of Flight"
+},{
+  "_id": {
+    "$oid": "5fc8ce501c992cbb021613c4"
+  },
+  "Textbook_name": "Introduction To Automative Electronics",
+  "Owner_name": "Dheeksha Reddy",
+  "Availability": "In_stock",
+  "Contact_no": "7624455765",
+  "Course": "Automative Electronics"
+},{
+  "_id": {
+    "$oid": "5fc8ce511c992cbb021613c5"
+  },
+  "Textbook_name": "Smart Materials And Structures",
+  "Owner_name": "Shamith",
+  "Availability": "In_stock",
+  "Contact_no": "7345997742",
+  "Course": "Smart Materials"
+},{
+  "_id": {
+    "$oid": "5fc8ce511c992cbb021613c6"
+  },
+  "Textbook_name": "Fundamentals Of Computational Fluid Dynamics",
+  "Owner_name": "Roopa Moulya",
+  "Availability": "In_stock",
+  "Contact_no": "9887756789",
+  "Course": "Computational Fluid Dynamics"
+},{
+  "_id": {
+    "$oid": "5fc8ce521c992cbb021613c7"
+  },
+  "Textbook_name": "Flight Dynamic Principles",
+  "Owner_name": "Janani Pritha",
+  "Availability": "In_stock",
+  "Contact_no": "7643567845",
+  "Course": "Principles Of Flight"
+},{
+  "_id": {
+    "$oid": "5fc8ce5a1c992cbb021613d4"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Material Science And Metallurgy"
+},{
+  "_id": {
+    "$oid": "5fc8ce5b1c992cbb021613d5"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Material Science And Metallurgy"
+},{
+  "_id": {
+    "$oid": "5fc8ce5b1c992cbb021613d6"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Material Science And Metallurgy"
+},{
+  "_id": {
+    "$oid": "5fc8ce5c1c992cbb021613d7"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Material Science And Metallurgy"
+},{
+  "_id": {
+    "$oid": "5fc8ce5c1c992cbb021613d8"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "praju",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Material Science And Metallurgy"
+}]

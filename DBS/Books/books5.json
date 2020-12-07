@@ -1,0 +1,74 @@
+[{
+  "_id": {
+    "$oid": "5fc640eb7b1d65366a42f683"
+  },
+  "Textbook_Name": "Automata Formal Language and Logic",
+  "Owner_Name": "Preethi Shenoy ",
+  "Availibility": "In-stock",
+  "Contact_no": 9980456734,
+  "Course": "Automata Formal Language and Logic"
+},{
+  "_id": {
+    "$oid": "5fc641c07b1d65366a42f684"
+  },
+  "Textbook_Name": "Statistics of Data Science",
+  "Owner_Name": "Rahul Nayak",
+  "Contact_no": 9867554324,
+  "Course": "Statistics of Data Science"
+},{
+  "_id": {
+    "$oid": "5fc642857b1d65366a42f685"
+  },
+  "Textbook_Name": "Digital Design and Computer Architecture,5th Edition, David Harris",
+  "Owner_Name": "Tahir Khan",
+  "Contact_no": 9904532154,
+  "Course": "Digital Design and Computer Organisation"
+},{
+  "_id": {
+    "$oid": "5fc644027b1d65366a42f686"
+  },
+  "Textbook_Name": "Web Technology,2nd Edition, Uttkarsh Roy",
+  "Owner_Name": "Raj Kishore",
+  "Contact_no": 8198865454,
+  "Course": "Web Technology"
+},{
+  "_id": {
+    "$oid": "5fc644f37b1d65366a42f687"
+  },
+  "Textbook_Name": "The Complete Reference Java, 5th Edition, Herbert Schildt",
+  "Owner_Name": "Ivan D'Souza",
+  "Contact_no": 9876434564,
+  "Course": "Object Oriented Programming with Java"
+},{
+  "_id": {
+    "$oid": "5fc646487b1d65366a42f688"
+  },
+  "Textbook_Name": "Statistics of Data Science",
+  "Owner_Name": " Shruti N",
+  "Contact_no": 9880675423,
+  "Course": "Statistics of Data Science"
+},{
+  "_id": {
+    "$oid": "5fc673747b1d65366a42f689"
+  },
+  "Textbook_Name": "The Complete Reference C++, 7th Edition, Herbert Schildt ",
+  "Owner_Name": "Rajesh Kumar",
+  "Contact_no": 9988005454,
+  "Course": "C++"
+},{
+  "_id": {
+    "$oid": "5fc676b57b1d65366a42f68b"
+  },
+  "Textbook_Name": "Digital Design and Computer architecture, 5th Edition, David Harris",
+  "Owner_Name": "Shama Syed",
+  "Contact_no": 9845074453,
+  "Course": "Digital Design and Computer Organisation"
+},{
+  "_id": {
+    "$oid": "5fc85d5102b7d64e0dbf9d9a"
+  },
+  "Textbook_Name": "Automata Formal Language and Logic",
+  "Owner_Name": "Srishti Aggarwal",
+  "Contact_no": 9880676523,
+  "Course": "Automata Formal Language and Logic"
+}]

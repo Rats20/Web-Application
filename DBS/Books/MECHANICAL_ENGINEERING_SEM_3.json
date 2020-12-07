@@ -1,0 +1,82 @@
+[{
+  "_id": {
+    "$oid": "5fc8ce001c992cbb0216138a"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "Rajesh R",
+  "Availability": "In_stock",
+  "Contact_no": "8738927578",
+  "Course": "Material Science And Metallurgy"
+},{
+  "_id": {
+    "$oid": "5fc8ce031c992cbb0216138b"
+  },
+  "Textbook_name": "Mechanics Of Solid,3rd Edition",
+  "Owner_name": "Kushal",
+  "Availability": "In_stock",
+  "Contact_no": "8737827578",
+  "Course": "Mechanics Of Solid"
+},{
+  "_id": {
+    "$oid": "5fc8ce041c992cbb0216138c"
+  },
+  "Textbook_name": "Engineering Thermodynamics,2nd Edition",
+  "Owner_name": "Shambavi T",
+  "Availability": "In_stock",
+  "Contact_no": "9738927578",
+  "Course": "Engineering Thermodynamics"
+},{
+  "_id": {
+    "$oid": "5fc8ce041c992cbb0216138d"
+  },
+  "Textbook_name": "Metal Cating And Joining",
+  "Owner_name": "Madhu Sharma",
+  "Availability": "In_stock",
+  "Contact_no": "8778924578",
+  "Course": "Metal Cating And Welding Process"
+},{
+  "_id": {
+    "$oid": "5fc8ce051c992cbb0216138e"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "Punith S",
+  "Availability": "In_stock",
+  "Contact_no": "9838989578",
+  "Course": "Material Science And Metallurgy"
+},{
+  "_id": {
+    "$oid": "5fc8ce061c992cbb0216138f"
+  },
+  "Textbook_name": "Mechanics Of Solid,3rd Edition",
+  "Owner_name": "Suma D",
+  "Availability": "In_stock",
+  "Contact_no": "9263927578",
+  "Course": "Mechanics Of Solid"
+},{
+  "_id": {
+    "$oid": "5fc8ce061c992cbb02161390"
+  },
+  "Textbook_name": "Engineering Thermodynamics,2nd Edition",
+  "Owner_name": "Shourya Raj",
+  "Availability": "In_stock",
+  "Contact_no": "8738283765",
+  "Course": "Engineering Thermodynamics"
+},{
+  "_id": {
+    "$oid": "5fc8ce071c992cbb02161391"
+  },
+  "Textbook_name": "Metal Cating And Joining",
+  "Owner_name": "Dinesh P",
+  "Availability": "In_stock",
+  "Contact_no": "9836527578",
+  "Course": "Metal Cating And Welding Process"
+},{
+  "_id": {
+    "$oid": "5fc8ce0b1c992cbb02161396"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "Shivu Kumar",
+  "Availability": "In_stock",
+  "Contact_no": "9436789267",
+  "Course": "Material Science And Metallurgy"
+}]

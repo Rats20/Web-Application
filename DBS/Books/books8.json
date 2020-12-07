@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "5fc8a1ee5e93cd9cd1c2bdd6"
+  },
+  "Textbook_Name": "Compilers: Principles, Techniques, and Tools, Alfred Aho, Pearson",
+  "Owner_Name": "Rahul Sharma",
+  "Availibility": "In-stock",
+  "Contact_no": 9943447609,
+  "Course": "Compiler Design"
+},{
+  "_id": {
+    "$oid": "5fc8cbfedda58f866e74616b"
+  },
+  "Textbook_Name": "Cloud Computing, Naresh Sehgal",
+  "Owner_Name": "Preeti Irani",
+  "Availibility": "In-Stock",
+  "Contact_no": 8897454567,
+  "Course": "Cloud Computing"
+},{
+  "_id": {
+    "$oid": "5fc8cd0b867ea35dd8434004"
+  },
+  "Textbook_Name": "Cloud Computing, Naresh Sehgal",
+  "Owner_Name": "Ramnath",
+  "Availibility": "In-Stock",
+  "Contact_no": 7888974545,
+  "Course": "Cloud Computing"
+},{
+  "_id": {
+    "$oid": "5fc8cd17dda58f866e74616c"
+  },
+  "Textbook_Name": "Pattern Recognition and Machine Learning, Christopher Bishop, 2006",
+  "Owner_Name": "Rashmi",
+  "Contact_no": 6785912345,
+  "Course": "Machine Learning"
+},{
+  "_id": {
+    "$oid": "5fc8ce1b867ea35dd8434005"
+  },
+  "Textbook_Name": "Pattern Recognition and Machine Learning, Christopher Bishop, 2006",
+  "Owner_Name": "Neeti",
+  "Contact_no": 6785968588,
+  "Course": "Machine Learning"
+}]

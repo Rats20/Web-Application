@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5fc8edcadda58f866e746172"
+  },
+  "Textbook_Name": "Bioprocess Engineering: Basic Concepts, Michael L.Shuler",
+  "Owner_Name": "Ramya",
+  "Availability": "In-stock",
+  "Contact_no": 7656433218,
+  "Course": "Bioprocess Reaction Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8fb71867ea35dd8434009"
+  },
+  "Textbook_Name": "Principles of Biotechnology and Genetic Engineering, Dr.A.J.Nair",
+  "Owner_Name": "Kiran",
+  "Availability": "In-stock",
+  "Contact_no": 76564675483,
+  "Course": "Genetic Engineering and its Applications"
+},{
+  "_id": {
+    "$oid": "5fc90baf867ea35dd843400a"
+  },
+  "Textbook_Name": "Textbook of Bioinformatics",
+  "Owner_Name": "Kiran",
+  "Availability": "In-stock",
+  "Contact_no": 76564675483,
+  "Course": "Bioinformatics"
+},{
+  "_id": {
+    "$oid": "5fc90bcc867ea35dd843400b"
+  },
+  "Textbook_Name": "Bioprocess Engineering: Basic Concepts, Michael L.Shuler",
+  "Owner_Name": "Raksha",
+  "Availability": "In-stock",
+  "Contact_no": 7656433265,
+  "Course": "Bioprocess Reaction Engineering"
+}]

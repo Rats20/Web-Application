@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "5fc913ffdda58f866e746174"
+  },
+  "Textbook_Name": "Network Analysis and Synthesis, Ravish R Singh",
+  "Owner_Name": "Prashant K",
+  "Availability": "In-stock",
+  "Contact_no": 8564788765,
+  "Course": "Network Analysis and Synthesis"
+},{
+  "_id": {
+    "$oid": "5fc91562867ea35dd843400e"
+  },
+  "Textbook_Name": "CMOS Digital Integrated Circuits Analysis and Design, 4th Edition",
+  "Owner_Name": "Ravi K",
+  "Availability": "In-stock",
+  "Contact_no": 8564780089,
+  "Course": "Analog Circuit Design"
+},{
+  "_id": {
+    "$oid": "5fc91570867ea35dd843400f"
+  },
+  "Textbook_Name": "CMOS Digital Integrated Circuits Analysis and Design, 4th Edition",
+  "Owner_Name": "Ravi K",
+  "Availability": "In-stock",
+  "Contact_no": 8564780089,
+  "Course": "Digital Circuit Design"
+},{
+  "_id": {
+    "$oid": "5fc9172b867ea35dd8434010"
+  },
+  "Textbook_Name": "Digital Signals and Systems",
+  "Owner_Name": "Ravi K",
+  "Availability": "In-stock",
+  "Contact_no": 8564780089,
+  "Course": "Signals and System"
+}]

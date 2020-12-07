@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "5fc8660c02b7d64e0dbf9d9b"
+  },
+  "Textbook_Name": "Linear Algebra and its Application, 4th Edition, McGraw Hill",
+  "Owner_Name": "Ritvik Sisodia",
+  "Availability": "In-stock",
+  "Contact_no": 6745982310,
+  "Course": "Linear Algebra and its Application"
+},{
+  "_id": {
+    "$oid": "5fc8680802b7d64e0dbf9d9c"
+  },
+  "Textbook_Name": "Design and Analysis of Algorithms",
+  "Owner_Name": "Rahul Sharma",
+  "Availability": "In-stock",
+  "Contact_no": 9943447609,
+  "Course": "Design and Analysis of Algorithms"
+},{
+  "_id": {
+    "$oid": "5fc869e502b7d64e0dbf9d9d"
+  },
+  "Textbook_Name": "Data Base Management Systems",
+  "Owner_Name": "Raj Kishore",
+  "Availability": "In-stock",
+  "Contact_no": 7865445687,
+  "Course": "Data Base Management Systems"
+},{
+  "_id": {
+    "$oid": "5fc86ad302b7d64e0dbf9d9e"
+  },
+  "Textbook_Name": "Microprocessor and Computer architecture, David Harris, 5th Edition",
+  "Contact_no": 6578095567,
+  "Course": "Microprocessor and Computer Architecture"
+},{
+  "_id": {
+    "$oid": "5fc86bfb20e2ea2f18db0498"
+  },
+  "Textbook_Name": "Microprocessor and Computer architecture, David Harris, 5th Edition",
+  "Contact_no": 6578097898,
+  "Course": "Microprocessor and Computer Architecture"
+},{
+  "_id": {
+    "$oid": "5fc86c4820e2ea2f18db0499"
+  },
+  "Textbook_Name": "Linear Algebra and its Application, 4th Edition, McGraw Hill",
+  "Owner_Name": "Isra Khan",
+  "Availability": "In-stock",
+  "Contact_no": 6747895454,
+  "Course": "Linear Algebra and its Application"
+},{
+  "_id": {
+    "$oid": "5fc86d3520e2ea2f18db049a"
+  },
+  "Textbook_Name": "Theory of Computation,Pearson, 4th Edition",
+  "Owner_Name": "Ritvik Sisodia",
+  "Availability": "In-stock",
+  "Contact_no": 6745680099,
+  "Course": "Theory of Computation"
+},{
+  "_id": {
+    "$oid": "5fc86d5c20e2ea2f18db049b"
+  },
+  "Textbook_Name": "Design and Analysis of Algorithms",
+  "Owner_Name": "Rakesh Sharma",
+  "Availability": "In-stock",
+  "Contact_no": 9943768976,
+  "Course": "Design and Analysis of Algorithms"
+}]

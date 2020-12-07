@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5fc90ce3dda58f866e746173"
+  },
+  "Textbook_Name": "Process Systems and Analysis Control, 3rd Edition, Donald R. , Steven E.",
+  "Owner_Name": "Naveen",
+  "Availability": "In-stock",
+  "Contact_no": 8976566589,
+  "Course": "Bioprocess Systems Analysis and Control"
+},{
+  "_id": {
+    "$oid": "5fc90e36867ea35dd843400c"
+  },
+  "Textbook_Name": "Cell Culture and Upstream Processing : Butler, Michael",
+  "Owner_Name": "Naveen",
+  "Availability": "In-stock",
+  "Contact_no": 8976566589,
+  "Course": "Upstream Process"
+},{
+  "_id": {
+    "$oid": "5fc90e85867ea35dd843400d"
+  },
+  "Textbook_Name": "Textbook of Immunology",
+  "Owner_Name": "Binny",
+  "Availability": "In-stock",
+  "Contact_no": 8976566645,
+  "Course": "Immunology"
+}]

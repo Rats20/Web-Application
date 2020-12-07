@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "5fc8cf3c1c992cbb02161468"
+  },
+  "Textbook_name": "Environmental Engineering",
+  "Owner_name": "Divya D",
+  "Availability": "In_stock",
+  "Contact_no": "8265347896",
+  "Course": "Environmental Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cf3f1c992cbb02161469"
+  },
+  "Textbook_name": "An Introduction To Geotechnical Engineering",
+  "Owner_name": "Sanjay P",
+  "Availability": "In_stock",
+  "Contact_no": "9545467864",
+  "Course": " Geotechnical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cf3f1c992cbb0216146a"
+  },
+  "Textbook_name": " Engineering Geology And Rock Mechanics",
+  "Owner_name": "Rakul T",
+  "Availability": "In_stock",
+  "Contact_no": "7687980965",
+  "Course": " Engineering Geology And Rock Mechanics"
+},{
+  "_id": {
+    "$oid": "5fc8cf401c992cbb0216146b"
+  },
+  "Textbook_name": "Environmental Engineering",
+  "Owner_name": "Prema P",
+  "Availability": "In_stock",
+  "Contact_no": "9089786756",
+  "Course": "Environmental Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cf401c992cbb0216146c"
+  },
+  "Textbook_name": "An Introduction To Geotechnical Engineering",
+  "Owner_name": "Sunitha",
+  "Availability": "In_stock",
+  "Contact_no": "9887733456",
+  "Course": " Geotechnical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cf411c992cbb0216146d"
+  },
+  "Textbook_name": " Engineering Geology And Rock Mechanics",
+  "Owner_name": "Ramandha ",
+  "Availability": "In_stock",
+  "Contact_no": "7885667782",
+  "Course": " Engineering Geology And Rock Mechanics"
+}]

@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5fc8ce321c992cbb021613ae"
+  },
+  "Textbook_name": "Design Of Machine Element.4th Edition",
+  "Owner_name": "Sameeksha",
+  "Availability": "In_stock",
+  "Contact_no": "8778568756",
+  "Course": "Design Of Machine Element"
+},{
+  "_id": {
+    "$oid": "5fc8ce331c992cbb021613af"
+  },
+  "Textbook_name": "Principles Of Energy Conversion",
+  "Owner_name": "Sidharth",
+  "Availability": "In_stock",
+  "Contact_no": "7889944567",
+  "Course": "Principles Of Energy Conversion"
+},{
+  "_id": {
+    "$oid": "5fc8ce331c992cbb021613b0"
+  },
+  "Textbook_name": "Metal Cutting Theory And Practice",
+  "Owner_name": "Nandhan",
+  "Availability": "In_stock",
+  "Contact_no": "844566778",
+  "Course": "Metal Cutting And Machining Processes"
+},{
+  "_id": {
+    "$oid": "5fc8ce341c992cbb021613b1"
+  },
+  "Textbook_name": "Fundamentls Of Aerodynamics,6th Edition",
+  "Owner_name": "Thejas",
+  "Availability": "In_stock",
+  "Contact_no": "9112233456",
+  "Course": "Introduction To Aerodynamics"
+},{
+  "_id": {
+    "$oid": "5fc8ce341c992cbb021613b2"
+  },
+  "Textbook_name": "Design Of Machine Element,4th Edition",
+  "Owner_name": "Vikram Sharma",
+  "Availability": "In_stock",
+  "Contact_no": "7885566778",
+  "Course": "Design Of Machine Element"
+},{
+  "_id": {
+    "$oid": "5fc8ce351c992cbb021613b3"
+  },
+  "Textbook_name": "Principles Of Energy Conversion",
+  "Owner_name": "Sonal H",
+  "Availability": "In_stock",
+  "Contact_no": "9556677867",
+  "Course": "Principles Of Energy Conversion"
+},{
+  "_id": {
+    "$oid": "5fc8ce361c992cbb021613b4"
+  },
+  "Textbook_name": "Metal Cutting Theory And Practice",
+  "Owner_name": "Vikas",
+  "Availability": "In_stock",
+  "Contact_no": "9223344556",
+  "Course": "Metal Cutting And Machining Processes"
+},{
+  "_id": {
+    "$oid": "5fc8ce361c992cbb021613b5"
+  },
+  "Textbook_name": "Fundamentls Of Aerodynamics,6th Edition",
+  "Owner_name": "Varadha",
+  "Availability": "In_stock",
+  "Contact_no": "9554433667",
+  "Course": "Introduction To Aerodynamics"
+}]

@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5fc8ce171c992cbb02161397"
+  },
+  "Textbook_name": "Engineering Mechanics Dynamics,8th Edition",
+  "Owner_name": "Suraj Naik",
+  "Availability": "In_stock",
+  "Contact_no": "9267927578",
+  "Course": "Engineering Mechanics Dynamics"
+},{
+  "_id": {
+    "$oid": "5fc8ce171c992cbb02161398"
+  },
+  "Textbook_name": "Kinematic Design Of Machines And Mechanisms",
+  "Owner_name": "Prajwal Reddy",
+  "Availability": "In_stock",
+  "Contact_no": "7253690167",
+  "Course": "Mechanics Of Machine And Mechanisms"
+},{
+  "_id": {
+    "$oid": "5fc8ce181c992cbb02161399"
+  },
+  "Textbook_name": "Engineering Of Fluid Mechanics",
+  "Owner_name": "Sheetal ",
+  "Availability": "In_stock",
+  "Contact_no": "7892927578",
+  "Course": "Mechanics Of Fluids"
+},{
+  "_id": {
+    "$oid": "5fc8ce191c992cbb0216139a"
+  },
+  "Textbook_name": "Fundamentals Of Surface Mechanics",
+  "Owner_name": "Abhinav",
+  "Availability": "In_stock",
+  "Contact_no": "8238249670",
+  "Course": "Elective Surface Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8ce1a1c992cbb0216139b"
+  },
+  "Textbook_name": "Engineering Mechanics Dynamics,8th Edition",
+  "Owner_name": "Dheeraj",
+  "Availability": "In_stock",
+  "Contact_no": "7889275560",
+  "Course": "Engineering Mechanics Dynamics"
+},{
+  "_id": {
+    "$oid": "5fc8ce1b1c992cbb0216139c"
+  },
+  "Textbook_name": "Kinematic Design Of Machines And Mechanisms",
+  "Owner_name": "Pratiksha",
+  "Availability": "In_stock",
+  "Contact_no": "9635180000",
+  "Course": "Mechanics Of Machine And Mechanisms"
+},{
+  "_id": {
+    "$oid": "5fc8ce1b1c992cbb0216139d"
+  },
+  "Textbook_name": "Engineering Of Fluid Mechanics",
+  "Owner_name": "Sharmila",
+  "Availability": "In_stock",
+  "Contact_no": "8738558833",
+  "Course": "Mechanics Of Fluids"
+},{
+  "_id": {
+    "$oid": "5fc8ce1c1c992cbb0216139e"
+  },
+  "Textbook_name": "Fundamentals Of Surface Mechanics",
+  "Owner_name": "Ashish P",
+  "Availability": "In_stock",
+  "Contact_no": "9968927578",
+  "Course": "Elective Surface Engineering"
+}]

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5fcd9f6413c8a229f00ed777"
+  },
+  "Textbook_Name": "Electrical Systems and Analogs",
+  "Owner_Name": "Swathi",
+  "Availability": "In-stock",
+  "Contact_no": 9936548768,
+  "Course": "Power System Analysis & Stability"
+},{
+  "_id": {
+    "$oid": "5fcda00f6cbcd56bb464858b"
+  },
+  "Textbook_Name": "Electrical Systems and Analogs",
+  "Owner_Name": "Swathi",
+  "Availability": "In-stock",
+  "Contact_no": 9936548768,
+  "Course": "Control systems "
+},{
+  "_id": {
+    "$oid": "5fcda0536cbcd56bb464858c"
+  },
+  "Textbook_Name": "Electrical Signals",
+  "Owner_Name": "Karan",
+  "Availability": "In-stock",
+  "Contact_no": 9936500341,
+  "Course": "Digital Signal Processing"
+}]

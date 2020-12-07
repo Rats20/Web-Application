@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5fc91f50dda58f866e746177"
+  },
+  "Textbook_Name": "Computer Networking: A Top-Down Approach, 6th Edition",
+  "Owner_Name": "David",
+  "Availability": "In-stock",
+  "Contact_no": 9908765473,
+  "Course": "Computer Network"
+},{
+  "_id": {
+    "$oid": "5fc92062867ea35dd8434015"
+  },
+  "Textbook_Name": "Digital Communications, John G. Proakis, Masoud Salehi",
+  "Owner_Name": "Vrinali",
+  "Availability": "In-stock",
+  "Contact_no": 9906723454,
+  "Course": "Digital Communication"
+},{
+  "_id": {
+    "$oid": "5fc920f8867ea35dd8434016"
+  },
+  "Textbook_Name": "Digital Principles and System Design",
+  "Owner_Name": "Vrinali",
+  "Availability": "In-stock",
+  "Contact_no": 9906723454,
+  "Course": "Digital System Design"
+}]
