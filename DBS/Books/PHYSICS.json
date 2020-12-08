@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "5fc8cdbb1c992cbb0216136c"
+  },
+  "Textbook_name": "Introduction To Computer Science Using Phython",
+  "Owner_name": "Sidarth",
+  "Availability": "In_stock",
+  "Contact_no": "7778899006",
+  "Course": "Introduction To Computing Using Phython"
+},{
+  "_id": {
+    "$oid": "5fc8cdbc1c992cbb0216136d"
+  },
+  "Textbook_name": "Engineering Physics",
+  "Owner_name": "Deepak P",
+  "Availability": "In_stock",
+  "Contact_no": "7897897898",
+  "Course": "Engineering Physics"
+},{
+  "_id": {
+    "$oid": "5fc8cdbd1c992cbb0216136e"
+  },
+  "Textbook_name": "Basic Electrical Engineering",
+  "Owner_name": "Rajath p",
+  "Availability": "In_stock",
+  "Contact_no": "9008899007",
+  "Course": "Basic Electrical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cdbd1c992cbb0216136f"
+  },
+  "Textbook_name": "Mechanical Engineering Science",
+  "Owner_name": "Prateek",
+  "Availability": "In_stock",
+  "Contact_no": "7887788678",
+  "Course": "Mechanical Engineering Science"
+},{
+  "_id": {
+    "$oid": "5fc8cdbe1c992cbb02161370"
+  },
+  "Textbook_name": "Engineering Mathematics",
+  "Owner_name": "Vinanthi",
+  "Availability": "In_stock",
+  "Contact_no": "9879876545",
+  "Course": "Engineering Mathematics"
+},{
+  "_id": {
+    "$oid": "5fc8cdbf1c992cbb02161372"
+  },
+  "Textbook_name": "Material Science And Metallurgy",
+  "Owner_name": "Praveen",
+  "Availability": "In_stock",
+  "Contact_no": "8778899678",
+  "Course": "Material Science And Metallurgy"
+},{
+  "_id": {
+    "$oid": "5fc8cdc01c992cbb02161373"
+  },
+  "Textbook_name": "Engineering Physics",
+  "Owner_name": "Prateek",
+  "Availability": "In_stock",
+  "Contact_no": "766544776",
+  "Course": "Engineering Physics"
+},{
+  "_id": {
+    "$oid": "5fc8cdc11c992cbb02161374"
+  },
+  "Textbook_name": "Basic Electrical Engineering",
+  "Owner_name": "Lenisha",
+  "Availability": "In_stock",
+  "Contact_no": "9667878665",
+  "Course": "Basic Electrical Engineering"
+},{
+  "_id": {
+    "$oid": "5fc8cdc11c992cbb02161375"
+  },
+  "Textbook_name": "Mechanical Engineering Science",
+  "Owner_name": "Anjana",
+  "Availability": "In_stock",
+  "Contact_no": "7666654567",
+  "Course": "Mechanical Engineering Science"
+},{
+  "_id": {
+    "$oid": "5fc8cdc21c992cbb02161376"
+  },
+  "Textbook_name": "Engineering Mathematics",
+  "Owner_name": "Tharun",
+  "Availability": "In_stock",
+  "Contact_no": "8997788678",
+  "Course": "Engineering Mathematics"
+}]
