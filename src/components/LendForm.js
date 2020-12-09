@@ -1,4 +1,5 @@
 import React from 'react';
+import Reading from './img/Reading.png';
 
 class LendForm extends React.Component{
 
@@ -760,11 +761,7 @@ class LendForm extends React.Component{
                 </div>
 
                 <div style={{float : "left", height : 800, width : 350, marginTop : 50, marginLeft : 50}}>
-                    <div class="uploadWrapper">
-                        <button style={buttonStyle}>Upload image</button>
-                        <input type="file" accept="image/*" onChange={this.preview_image}/>
-                    </div>
-                    <img id="output_image" style={imgStyle} /> 
+                    <img src={Reading} style={imgStyle} alt="Loading..."/> 
                     <input type="submit" style={buttonStyle} disabled={this.state.isEnabled} value="Lend"/> 
                 </div>
 
