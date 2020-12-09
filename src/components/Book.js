@@ -12,14 +12,7 @@ class Book extends React.Component{
             float : "left",
             margin : 20
         };
-
-        var imgStyle = {
-            height : 200,
-            width : 150,
-            margin : "20px 10px",
-            float : "left"
-        };
-
+        
         var letterStyle={
             fontFamily : "Arial, Times, Lucida Grande",
             fontSize : 20,
@@ -48,7 +41,6 @@ class Book extends React.Component{
 
         return(
             <div style={boxStyle}>
-                <img src={this.props.source} alt="Book" style={imgStyle}/>
                 <p style={letterStyle}>{this.props.tbName}</p>
                 <p style={letterStyle}>Book owner : {this.props.owner}</p>
                 <p style={letterStyle}>Contact Details : {this.props.phno}</p>
