@@ -112,7 +112,7 @@ select:focus{
 
 #slide{
   width: 30vw;
-  height: 100vh;
+  /*height: 100vh;*/
   background-color: black;
   position: fixed;
   top: 0;
@@ -122,12 +122,14 @@ select:focus{
   z-index: 1000;
 }
 
-#slide.hide{
+/*#slide.hide{
   transform: translate3d(-100vw, 0, 0);
+  visibility: hidden;
 }
 
 #slide.show{
+  visibility:  visible;
   transform: translate3d(0vw, 0, 0);
   overflow: scroll;
-}
+}*/
 
