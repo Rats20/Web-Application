@@ -28,7 +28,7 @@ class SearchBar extends React.Component{
         return(
             <div style={basicStyle}>
                 <input type="text" id="search" style={boxStyle} placeholder="Search here..." />
-                <img src={SearchIcon} style={imgStyle} alt="SearchIcon"/>
+                <input type="image" src={SearchIcon} style={imgStyle} alt="SearchIcon"/>
             </div>
         );
     }
