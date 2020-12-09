@@ -1,10 +1,63 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import MenuIcon from './img/MenuIcon.jpeg';
+import LeftArrow from './img/LeftArrow.jpeg';
+//import MenuIcon from './img/MenuIcon.jpeg';
 
 var fetch = require('node-fetch');
 
-class MenuButton extends React.Component{
+class NavCourse extends React.Component{
+
+    render(){
+
+        var buttonStyle = {
+            height : 80,
+            width : 300,
+            backgroundColor : "white",
+            border : "5px solid #CBB5A1",
+            margin : "20px 0px 20px 50px",
+            fontFamily : "American Typewriter, Times New Roman, sans-serif",
+            fontSize : 24
+        };
+
+        var labelStyle = {
+            color : "white",
+            fontSize : 32,
+            fontFamily : "American TypeWriter, Times New Roman, Helvetica",
+            textAlign : "center",
+            margin : "20px 0px 20px 50px",
+        };
+
+        return(
+
+            <div id="slide" style={{marginTop : 100}}>
+                <label style={labelStyle}>Contents</label>
+                <hr style={{height : 0.5, width : 500, backgroundColor : "white", color : "white"}}/>
+                <div>
+                    <Link to={this.props.prevpath}>
+                        <input type="image" src={LeftArrow} alt="Previous" style={{height : 50, width : 50, left : 50}}/>
+                    </Link>
+                </div>
+                <Link to={(this.props.path).concat(this.props.path1)}>
+                <button style={buttonStyle}>{this.props.course1}</button>
+                </Link>
+                <Link to={(this.props.path).concat(this.props.path2)}>
+                <button style={buttonStyle}>{this.props.course2}</button>
+                </Link>
+                <Link to={(this.props.path).concat(this.props.path3)}>
+                <button style={buttonStyle}>{this.props.course3}</button>
+                </Link>
+                <Link to={(this.props.path).concat(this.props.path4)}>
+                <button style={buttonStyle}>{this.props.course4}</button>
+                </Link>
+                <Link to={(this.props.path).concat(this.props.path5)}>
+                <button style={buttonStyle}>{this.props.course5}</button>
+                </Link>
+            </div>
+        );
+        }
+}
+
+/*class MenuButton extends React.Component{
 
     render(){
 
@@ -117,7 +170,7 @@ class NavCourse extends React.Component{
             </div>
         );
     }
-}
+}*/
 
 
 export default NavCourse;
