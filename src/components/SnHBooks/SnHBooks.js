@@ -1,9 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 import SearchBar from '../Searchbar'
 import NavSems from '../NavSems';
 import Book from '../Book';
-import LeftArrow from '../img/LeftArrow.jpeg';
 import Book1 from '../img/Book1.png';
 import Book2 from '../img/Book2.jpeg';
 import Book3 from '../img/Book3.png';
@@ -74,12 +73,6 @@ class SnHBooks extends React.Component{
                 <div style={{float : "left", marginTop : 120, width:1100}}>
                         <SearchBar/>
                         <NavSems name="snh" path="/snh"/>
-                </div>
-
-                <div>
-                    <Link to='/categorymain'>
-                        <input type="image" src={LeftArrow} alt="Previous" style={{position : "fixed", top : "50%", left : 50}}/>
-                    </Link>
                 </div>
 
                 <div style={{float : "left"}}>
