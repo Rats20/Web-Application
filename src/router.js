@@ -115,7 +115,7 @@ router.get('/cse/sem3',(err, res)=>{
         users.find({},{projection:{_id : 0}}).toArray((err, obj)=>{
             if(err) throw err;
             res.send(obj);
-            console.log(obj[0].Owner_Name);
+            //console.log(obj[0].Owner_Name);
         });
     });
 });
