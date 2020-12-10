@@ -707,9 +707,7 @@ class LendForm extends React.Component{
         };
 
         var imgStyle = {
-            border : "5px dashed #F5E5D6",
-            borderRadius : 5,
-            margin : 20,
+            margin : "50px 20px 50px 20px",
             height : 400,
             width : 300
         };
@@ -761,7 +759,12 @@ class LendForm extends React.Component{
                 </div>
 
                 <div style={{float : "left", height : 800, width : 350, marginTop : 50, marginLeft : 50}}>
-                    <img src={Reading} style={imgStyle} alt="Loading..."/> 
+                    {/*<div class="uploadWrapper">
+                        <button style={buttonStyle}>Upload image</button>
+                        <input type="file" accept="image/*" onChange={this.preview_image}/>
+                    </div>
+                    <img id="output_image" style={imgStyle} /> */}
+                    <img src={Reading} style={imgStyle} alt="Loading..."/>
                     <input type="submit" style={buttonStyle} disabled={this.state.isEnabled} value="Lend"/> 
                 </div>
 
